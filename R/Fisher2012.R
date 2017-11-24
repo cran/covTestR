@@ -5,7 +5,10 @@
 #'
 #' @export
 #'
-#' @references Fisher, T. J. (2012). On Testing for an Identity Covariance Matrix when the Dimensionality Equals or Exceeds the Sample Size. Journal of Statistical Planning and Infernece, 142(1), 312-326. \doi{10.1016/j.jspi.2011.07.019}
+#' @references Fisher, T. J. (2012). On Testing for an Identity 
+#' Covariance Matrix when the Dimensionality Equals or Exceeds the 
+#' Sample Size. Journal of Statistical Planning and Infernece, 142(1), 
+#' 312-326. \href{http://doi.org/10.1016/j.jspi.2011.07.019}{10.1016/j.jspi.2011.07.019}
 #'
 #' @examples Fisher2012(as.matrix(iris[1:50, 1:4]))
 #'
@@ -15,7 +18,6 @@ Fisher2012 <- function(x, Sigma = "identity", ...){
 
 #' @export
 #' @keywords internal
-#' @importFrom stats cov
 #' @importFrom stats pnorm
 #'
 Fisher2012.covariance <- function(x, Sigma = "identity", ...){

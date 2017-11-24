@@ -5,13 +5,13 @@
 #' @export
 #'
 #' @importFrom lazyeval lazy_dots
-#' @importFrom lazyeval lazy_eval
-#' @importFrom stringr str_detect
-#' @importFrom stringr str_replace
-#' @importFrom stats cov
 #' @importFrom stats pchisq
 #'
-#' @references Srivastava, M. S. (2007). Testing the equality of two covariance matrices and independence of two sub-vectors with fewer observations than the dimension. InInternational Conference on Advances in InterdisciplinaryStistics and Combinatorics, University of North Carolina at Greensboro, NC, USA.
+#' @references Srivastava, M. S. (2007). Testing the equality of two 
+#' covariance matrices and independence of two sub-vectors with fewer 
+#' observations than the dimension. InInternational Conference on 
+#' Advances in InterdisciplinaryStistics and Combinatorics, University 
+#' of North Carolina at Greensboro, NC, USA.
 #'
 #' @examples 
 #' irisSpecies <- unique(iris$Species)

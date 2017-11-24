@@ -1,7 +1,7 @@
 Package: covTestR
 Type: Package
 Title: Covariance Matrix Tests
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Ben", "Barnard", email = "ben_barnard@outlook.com", role = c("aut", "cre")),
   person("Dean", "Young", email = "dean_young@baylor.edu", role = c("aut")))
 Maintainer: Ben Barnard <ben_barnard@outlook.com>
@@ -13,12 +13,13 @@ License: GPL-2
 LazyData: TRUE
 RoxygenNote: 6.0.1
 Suggests: covr
-Imports: lazyeval, stringr, dplyr, shiny, Rcpp
+Depends: R (>= 3.4)
+Imports: lazyeval, dplyr, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 SystemRequirements: C++11
 NeedsCompilation: yes
-Packaged: 2017-11-21 19:21:50 UTC; benbarnard
+Packaged: 2017-11-24 16:29:36 UTC; ben_barnard
 Author: Ben Barnard [aut, cre],
   Dean Young [aut]
 Repository: CRAN
-Date/Publication: 2017-11-22 09:19:26 UTC
+Date/Publication: 2017-11-24 18:11:02 UTC
