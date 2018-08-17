@@ -1,7 +1,7 @@
 Package: covTestR
 Type: Package
 Title: Covariance Matrix Tests
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(person("Ben", "Barnard", email = "ben_barnard@outlook.com", role = c("aut", "cre")),
   person("Dean", "Young", email = "dean_young@baylor.edu", role = c("aut")))
 Maintainer: Ben Barnard <ben_barnard@outlook.com>
@@ -11,17 +11,16 @@ Description: Testing functions for Covariance Matrices. These tests include high
   tests use C++ to speed performance and allow larger data sets.
 License: GPL-2
 LazyData: TRUE
-RoxygenNote: 6.0.1
-URL: https://covTestR.bearstatistics.com
+RoxygenNote: 6.1.0
+URL: https://covtestr.bearstatistics.com
 BugReports: https://github.com/BenBarnard/covTestR/issues
-Suggests: covr
 Depends: R (>= 3.3)
-Imports: lazyeval, dplyr, Rcpp
+Imports: rlang, purrr, Rcpp
 LinkingTo: Rcpp, RcppArmadillo
 SystemRequirements: C++11
 NeedsCompilation: yes
-Packaged: 2018-01-30 19:05:33 UTC; ben_barnard
+Packaged: 2018-08-17 19:57:27 UTC; ben_b
 Author: Ben Barnard [aut, cre],
   Dean Young [aut]
 Repository: CRAN
-Date/Publication: 2018-01-30 20:48:07 UTC
+Date/Publication: 2018-08-17 21:10:03 UTC
